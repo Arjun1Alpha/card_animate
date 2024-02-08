@@ -5,7 +5,7 @@
 }
 
 html, body {
-  height: 100vh;
+  height: 100dvh;
   width: 100vw;
   box-sizing: border-box;
 }
@@ -355,6 +355,4 @@ h1, h2, h3, h4 {
   .slide {
     width: 100%;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
