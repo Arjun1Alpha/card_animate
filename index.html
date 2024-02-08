@@ -79,7 +79,7 @@
 	}
 
 	function closeSlide(e) {
-		var $slide = $(e.target).parent();
+		var $slide = $(e.target).parent();  
 		$slide.removeClass('active anim-in').addClass('last-viewed');
 		$slide.siblings().removeClass('anim-out').addClass('anim-in');
 	}

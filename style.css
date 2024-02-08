@@ -1,8 +1,9 @@
-*{
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
 html, body {
   height: 100vh;
   width: 100vw;
@@ -345,6 +346,14 @@ h1, h2, h3, h4 {
 @keyframes img-anim-out {
   to {
     left: -100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #container {
+    flex-direction: column;
+  }
+  .slide {
+    width: 100%;
   }
 }
 
